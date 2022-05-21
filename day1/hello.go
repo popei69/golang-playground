@@ -10,17 +10,17 @@ func Hello(name string, language string) string {
 		name = "World"
 	}
 
-	prefix := MakeGreeting(language)
-	return prefix + name
+	return MakeGreeting(language) + name
 }
 
-func MakeGreeting(language string) string {
+func MakeGreeting(language string) (prefix string) {
 	switch language {
 	case "French":
-		return frenchGreeting
+		prefix = frenchGreeting
 	default:
-		return englishGreeting
+		prefix = englishGreeting
 	}
+	return
 }
 
 func main() {
