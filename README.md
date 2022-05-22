@@ -4,3 +4,4 @@ Learning [Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) and other
 ### Content
 
 * Day 1 - [Hello, World](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world)
+* Day 2 - [Integers](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/integers)
